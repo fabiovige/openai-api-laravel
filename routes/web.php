@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [HomeController::class, 'index']);
+Route::get('/models', [HomeController::class, 'models']);
+Route::get('/completions', [HomeController::class, 'completions']);
